@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts}' --quiet --fix"
+  },
+  "dependencies": {
+    "puppeteer": "^8.0.0",
+    "puppeteer-extra-plugin-angular": "^3.2.4",
+    "tsutils": "^3.21.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.6",
+    "typescript": "^4.2.4"
+  }
+}
